@@ -1,0 +1,4 @@
+/node_modules/
+/.theia/
+package.json
+yarn.lock

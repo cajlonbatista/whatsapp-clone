@@ -1,0 +1,51 @@
+main{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+main div:first-child{
+    padding-top: 60px;
+}
+main div:last-child img{
+    width: 100%;
+    max-width: 460px;
+}
+main div:first-child h1{
+    font-family: Ubuntu, normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: #333333;
+}
+main div:first-child p{
+    max-width: 300px;
+    font-family: Open Sans, normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #919191;
+    margin-top: 5px;
+}
+main div:first-child div{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+}
+main div:first-child div button{
+    font-family: Ubuntu;
+    width: 90%;
+    max-width: 140px;
+    border-radius: 91px;
+    cursor: pointer;
+}
+main div:first-child div button:first-child{
+    background: #25D366; 
+    padding: 10px 20px;
+    border: 0;
+    color: white;
+}
+main div:first-child div button:last-child{
+    border: 2px solid #25D366;
+    color: #25D366;
+}

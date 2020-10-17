@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+body{
+    background: #F2F2F2;
+    background-image: url('../assets/back.svg');
+    background-position: top right;
+    background-size: 40rem;
+    background-repeat: no-repeat;
+}
