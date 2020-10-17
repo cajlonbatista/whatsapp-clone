@@ -16,3 +16,21 @@ header div a{
     text-decoration: none;
     margin-right: 20px;
 }
+header section img{
+    display: none;
+}
+@media(max-width: 1024px){
+    header div:last-child{
+        display: none;
+    }
+    body{
+        background-image: none;
+    }
+    header{
+        padding: 10px;
+    }
+    header section img{
+        display: block;
+    }
+
+}

@@ -49,3 +49,12 @@ main div:first-child div button:last-child{
     border: 2px solid #25D366;
     color: #25D366;
 }
+@media(max-width: 1024px){
+    main div:last-child img{
+        display: none;
+    }
+    main{
+        padding: 10px;
+        justify-content: center;
+    }
+}
